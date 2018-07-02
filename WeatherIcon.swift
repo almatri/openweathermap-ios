@@ -10,7 +10,7 @@ import UIKit
 
 class WeatherIcon {
 
-    static func loadIcon(_ id: Int, day: Bool = false, night: Bool = false) -> String? {
+    static func loadIcon(id: Int, day: Bool = false, night: Bool = false) -> String? {
         let filePath = Bundle.main.path(forResource: "WeatherIcons", ofType: "json", inDirectory: nil)
         
         if let filePath = filePath {
